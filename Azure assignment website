@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Aghedo Emmanuel Odianose 18CJ024100 DATA VISUALIZATION ASSIGNMENT</title>
+
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='css/main.css') }}">
+
+  </head>
+  <body>
+      <h1 align="center">Tea Production In Africa</h1>
+
+    <div class="cell">
+        <p class="main-text">
+           This Bar plots below show the Tea Production In Africa from the
+           year 2010-2019
+        </p>
+<br/><br/>
+        <img src='output1.png' width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output3.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output4.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2014.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2015.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2016.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2017.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2018.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2019.png') }}" width="70%">
+<br/><br/>
+
+
+
+
+
+      </div>
+
+
+      <div  class="cell">
+        <p class="main-text">
+            The line graphs show below the different measures of dispersion(as indicated by the legend),
+            for the observation values in the line graphs above the first plot being the Mean,followed by the Standard
+            Deviation,Variance,Median
+        </p>
+<br/><br/>
+       <img src="{{ url_for('static', filename='output4.png') }}" width="40%">
+ <br/><br/> 
+      <img src="{{ url_for('static', filename='output5.png') }}" width="40%">
+<br/><br/>
+      <img src="{{ url_for('static', filename='output6.png') }}" width="40%">
+<br/><br/>
+      <img src="{{ url_for('static', filename='output7.png') }}" width="40%">
+<br/><br/>
+      <img src="{{ url_for('static', filename='output8.png') }}" width="40%">
+<br/><br/>
+      </div>
+ <div  class="cell">
+        <p class="main-text">
+            The line graphs show below the different measures of dispersion(as indicated by the legend),
+            for the observation values in the bar plots above the first plot being the Mean,followed by the Standard 
+            Deviation, Variance,Median, Range
+         </p>
+<br/><br/>
+       <img src="{{ url_for('static', filename='output10.png') }}" width="40%">
+<br/><br/>
+       <img src="{{ url_for('static', filename='output11.png') }}" width="40%">
+<br/><br/>
+       <img src="{{ url_for('static', filename='output12.png') }}" width="40%">
+<br/><br/>
+       <img src="{{ url_for('static', filename='output13.png') }}" width="40%">
+<br/><br/>
+       <img src="{{ url_for('static', filename='output14.png') }}" width="40%">
+<br/><br/>
+      </div>
+      <div  class="cell">
+        <p class="main-text">
+            We can also decide to visualize the median and interquartile ranges with the help of a boxplot. 
+            The diagram below helps us understand its structure.
+        </p>
+            <img src='https://cdn1.byjus.com/wp-content/uploads/2020/10/Box-Plot-and-Whisker-Plot-1.png' width="30%">
+            <br />
+            <br />
+            <br />
+
+            <img src="{{ url_for('static', filename='Boxplots2010-2019.jpg') }}" width="70%">
+
+
+
+      </div>
+
+  </body>
+</html>
